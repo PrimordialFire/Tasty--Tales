@@ -4,17 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tasty Tales - Restaurant</title>
-    <!-- No external stylesheet, using inline styling below -->
 </head>
 <body style="font-family: Arial, sans-serif; margin: 0; padding: 0;">
-
-    <!-- Header Section -->
     <header style="background-color: #ff6347; padding: 20px; text-align: center; color: white;">
         <h1>Tasty Tales</h1>
         <p style="font-size: 18px; margin: 10px 0;">A Journey of Flavor, Tradition, and Innovation</p>
         <a href="#contact" style="background-color: #fff; color: #ff6347; padding: 10px 20px; text-decoration: none; border-radius: 5px; font-weight: bold;">Get Started</a>
     </header>
-<!-- Navigation Menu -->
 <nav style="background-color: #333; padding: 10px 0; text-align: center;">
     <ul style="list-style: none; padding: 0; margin: 0;">
         <li style="display: inline; margin-right: 20px;">
@@ -34,24 +30,17 @@
         </li>
     </ul>
 </nav>
-
-<!-- Inline CSS for hover effects, animations, and bouncing -->
 <style>
-    /* Hover effect */
     nav a:hover {
-        color: #FFD700; /* Gold color */
-        background-color: #555; /* Darker background */
-        padding: 5px 10px; /* Add some padding to make the hover effect stand out */
-        border-radius: 5px; /* Rounded corners for the background */
+        color: #FFD700;
+        background-color: #555;
+        padding: 5px 10px; 
+        border-radius: 5px; 
     }
-
-    /* Bounce animation for nav links */
     .nav-link {
         opacity: 0;
-        animation: fadeIn 1s forwards, bounce 1s ease-out; /* Applying both fade-in and bounce */
+        animation: fadeIn 1s forwards, bounce 1s ease-out;
     }
-
-    /* Sequential delay for each link */
     .nav-link:nth-child(1) {
         animation-delay: 0.2s;
     }
@@ -71,41 +60,35 @@
     .nav-link:nth-child(5) {
         animation-delay: 1s;
     }
-
-    /* Keyframes for fadeIn effect */
     @keyframes fadeIn {
         from {
             opacity: 0;
-            transform: translateY(10px); /* Start position slightly below */
+            transform: translateY(10px);
         }
         to {
             opacity: 1;
-            transform: translateY(0); /* End position */
+            transform: translateY(0);
         }
     }
-
-    /* Keyframes for bounce effect */
     @keyframes bounce {
         0% {
             transform: translateY(0);
         }
         30% {
-            transform: translateY(-10px); /* Move up a bit */
+            transform: translateY(-10px);
         }
         50% {
-            transform: translateY(0); /* Return to original position */
+            transform: translateY(0); 
         }
         70% {
-            transform: translateY(-5px); /* Slight second bounce */
+            transform: translateY(-5px);
         }
         100% {
-            transform: translateY(0); /* End at the original position */
+            transform: translateY(0);
         }
     }
 </style>
 
-   
-    <!-- About Section with Images and Description -->
     <section id="about" style="padding: 40px 20px; background-color: #f4f4f4;">
         <h2 style="text-align: center; color: #333;">About Tasty Tales</h2>
         <div style="max-width: 1200px; margin: 0 auto; display: flex; flex-wrap: wrap; justify-content: space-around;">
@@ -125,8 +108,6 @@
             </div>
         </div>
     </section>
-
-    <!-- Footer Section -->
     <footer style="background-color: #333; color: white; text-align: center; padding: 20px;">
         <p>&copy; 2024 Tasty Tales. All Rights Reserved.</p>
     </footer>
