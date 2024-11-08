@@ -1,13 +1,11 @@
 <!doctype html>
 <html lang="en">
-<head>
+<head> 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Get Tasty Tales Restaurant - Blog</title>
     <link rel="stylesheet" href="style.css">
-</head>
-<body>
-     <style>
+    <style>
         body {
             font-family: Arial, sans-serif;
             line-height: 1.6;
@@ -17,20 +15,29 @@
         }
         header {
             background: #ff6f61;
-            color: #fff;
-            padding: 1rem 0;
+            color: #333;
+            padding: 4px;
+            text-align: center;
+        }
+        nav {
+            background: #333;
+            padding: 20px 0;
+            width: 100%;
         }
         .logo img {
-            width: 150px;
-        }
+            width: 50px;
+            height: auto;
+            border-radius: 50%;
+            margin-bottom: 0.5rem;
+           }
+        
         nav ul {
             list-style: none;
-            padding: 0;
-            display: flex;
-            justify-content: center;
+            text-align: center;
         }
         nav ul li {
-            margin: 0 10px;
+            display: inline;
+            margin: 0 15px;
         }
         nav ul li a {
             color: #fff;
@@ -118,21 +125,24 @@
         h1 { font-weight: 600; animation: color-change 3s infinite;
          } @keyframes color-change { 0% { color: #ff6f61; } 50% { color: #333; } 100% { color: #ffc061; } }
     </style>
+</head>
+<body>
 <header>
+        <h1>Blog</h1>
     <div class="logo">
         <img src="images/logooo.jpg" alt="restaurant logo">
     </div>
+</header>
     <nav>
         <ul>
             <li><a href="index.html">Home</a></li>
             <li><a href="about.html">About Us</a></li>
             <li><a href="services.html">Services</a></li>
             <li><a href="portfolio.html">Portfolio</a></li>
-            <li><a href="blog.html">Blog</a></li>
             <li><a href="contact.html">Contact</a></li>
         </ul>
     </nav>
-</header>
+
 <section class="hero">
     <div class="hero-text">
         <h1>Welcome to Tasty Tales Restaurant</h1>
@@ -163,23 +173,10 @@
     <div class="footer-content">
         <p>&copy; 2024 Tasty Tales. All Rights Reserved.</p>
         <p>Follow us on:
-             <a href="https://www.facebook.com/Nthati Sekoati">Facebook</a> |
-             <a href="https://www.instagram.com/yourprofile">Instagram</a> |
-              <a href="https://www.twitter.com/yourprofile">Twitter</a></p> |
+             <a href="https://www.facebook.com/FoodNetworkKitchen">Facebook</a> |
+             <a href="https://www.instagram.com/sa_foods/">Instagram</a> |
+              <a href="https://t.co/kUaWg3HCNV">Twitter</a></p> 
     </div>
 </footer>
-<!-- Hidden Sections with detailed information -->
-<div id="delicious-recipes-more">
-    <h3>Delicious Recipes to Try</h3>
-    <p>Explore our latest recipes and cooking tips...</p>
-</div>
-<div id="top-foods-more">
-    <h3>Top 10 Foods to Eat This Summer</h3>
-    <p>Beat the heat with these refreshing and tasty dishes...</p>
-</div>
-<div id="healthy-eating-more">
-    <h3>Healthy Eating Tips</h3>
-    <p>Maintaining a balanced diet doesn’t have to be a chore...</p>
-</div>
 </body>
 </html>
