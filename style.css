@@ -75,6 +75,6 @@ form button {
 }
 .boundry{
     background-color: yellow;
-            font-size: larger;
-            font-style: italic;
+    font-size: larger;
+    text-align: center;   
 }
